@@ -41,6 +41,8 @@ Focus on rapid and basic development.
 
 
 > **JavaScript** 
+> - Angular Services;
+> - Charts;
 > - jQuery;
 > - Mask Input;
 > - Mask money;
