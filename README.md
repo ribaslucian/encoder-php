@@ -1,6 +1,6 @@
 # **ENCODER**
 
-Developed by me for fun, this is the group of classes that I unleashed and gathered in one place, the Encoder Framework, version PHP.
+Developed by me for fun, this is the group of classes that I implemented and gathered in one place, the Encoder Framework in your PHP version.
 
 ----------
 
