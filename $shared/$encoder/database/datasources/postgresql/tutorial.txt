@@ -1,0 +1,17 @@
+pg_dump 
+-f {arq saida}
+-F t
+-E UTF-8
+-d {database}
+-h {host}
+-U {user}
+-W
+
+pg_dump 
+-f {arq saida}
+-F t
+-E UTF-8
+-d {database}
+-h {host}
+-U {user}
+-W

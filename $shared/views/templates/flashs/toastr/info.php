@@ -1,0 +1,1 @@
+<div class="toastr" type="info" message="<?php echo $message; ?>"></div>

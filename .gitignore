@@ -1,0 +1,5 @@
+# diretorio de projetos netbeans
+/nbproject
+
+# arquivos temporarios, como caches e logs
+*.tmp

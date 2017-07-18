@@ -1,0 +1,112 @@
+/**
+ * Folhas de estilo da aplicacao.
+ *
+ * include: ../../../$shared/vendor/materializecss/materialize_material_icons.min
+ * include: ../../../$shared/lib/stylesheets/dropdown
+ * include: ../../../$shared/vendor/stylesheets/font/varela
+ * include: ../../../$shared/vendor/inspinia/animate_toastr.min
+ */
+
+*:not(.material-icons) { font-family: 'Varela Round', sans-serif !important; }
+.tnr { font-family: 'Times New Roman', sans-serif !important; }
+/** { -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none; }*/
+html { font-size: 80%; }
+hr { height: 1px; border: none; background-color: #ddd; margin: 10px 0; }
+.pull-right { float: right; }
+.pull-left { float: left; }
+.relative { position: relative; }
+.table { display: table; }
+.fixed { position: fixed; }
+.centered { display: table; margin: 0 auto; }
+.pointer { cursor: pointer; }
+.bold { font-weight: bold; }
+.nowrap { white-space: nowrap !important; }
+.italic { font-style: italic; }
+.upper { text-transform: uppercase; }
+.lower{ text-transform: lowercase; }
+.no.margin { margin: 0px; }
+.no.padding { padding: 0px; }
+input[disabled] { font-weight: bold; }
+a.disabled[href] { cursor: pointer; }
+.cem-percent { width: 100%; }
+.icon-on-right { margin-right: 25px; }
+
+/*.info_painel { border: 1px solid #2196F3; padding: 10px; border-style: dashed; border-radius: 4px; }*/
+.info_painel { border: 1px solid #ccc; padding: 10px; border-style: dashed; border-radius: 4px; }
+form .painel { background-color: #fff; padding: 20px 40px; margin-bottom: 10px; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); }
+
+form.small label { font-size: 12px !important; }
+form.small input:focus { font-size: 10px !important; }
+form.small input, form.small select { font-size: 12px !important; }
+
+.small-text-1  { font-size: 95% !important; }
+.small-text-2  { font-size: 90% !important; }
+.small-text-3  { font-size: 85% !important; }
+.small-text-4  { font-size: 80% !important; }
+.small-text-5  { font-size: 75% !important; }
+.small-text-6  { font-size: 70% !important; }
+.small-text-7  { font-size: 65% !important; }
+.small-text-8  { font-size: 60% !important; }
+.small-text-9  { font-size: 55% !important; }
+.small-text-10 { font-size: 50% !important; }
+.small-text-11 { font-size: 45% !important; }
+.small-text-12 { font-size: 40% !important; }
+.small-text-13 { font-size: 35% !important; }
+.small-text-14 { font-size: 30% !important; }
+
+.large-text-1 { font-size: 105% !important; }
+.large-text-2 { font-size: 110% !important; }
+.large-text-3 { font-size: 115% !important; }
+.large-text-4 { font-size: 120% !important; }
+.large-text-5 { font-size: 125% !important; }
+.large-text-6 { font-size: 130% !important; }
+.large-text-7 { font-size: 135% !important; }
+.large-text-8 { font-size: 140% !important; }
+.large-text-9 { font-size: 145% !important; }
+.large-text-10 { font-size: 150% !important; }
+.large-text-11 { font-size: 155% !important; }
+.large-text-12 { font-size: 160% !important; }
+.large-text-13 { font-size: 165% !important; }
+.large-text-14 { font-size: 170% !important; }
+.large-text-15 { font-size: 175% !important; }
+
+/* @table */
+/*asc:after { content: ' ⇣'; }
+desc:after { content: ' ⇡'; }*/
+tr.search-row { border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; }
+.search-row td { padding: 0px; }
+.search-row td { padding: 0px; }
+.search-row input { font-size: 12px; margin: 0px; border: 0px; font-weight: bold; }
+.border-01 tbody tr { border-bottom: 1px solid #eee; }
+.table-scroll { width: 100%; max-height: 100%; overflow: auto; }
+table td, a { white-space: nowrap; }
+table th { text-transform: uppercase; letter-spacing: 1px; color: #616161; }
+table.hover tbody tr:hover { background: #f9f9f9; }
+.__search_text { padding: 15px 0; cursor: text; }
+
+/* @pageLoader */
+page-loader { position: fixed; width: 100%; background-color: #f0f0f0; z-index: 10; height: 100%; top: 0px; left: 0px; }
+page-loader content { margin: 0 auto; display: table; margin-top: 25%; }
+
+/* Correções no MaterializeCss */
+/* <!-- l:desktop m:tablet s:mobile --> */
+.btn { font-weight: 800; }
+.btn-block { width: 100%; }
+#toast-container { margin-top: 5% !important; }
+.fixed { position: fixed; }
+.fixed.bottom { bottom: 20px; }
+.fixed.bottom.right { right: 20px; }
+/*select { background: ; }*/
+input:focus { background-color: #f9f9f9; font-size: 12px; font-weight: bold; }
+.lean-overlay { bottom: -100px !important; position: fixed !important; margin: 0px !important; }
+
+
+/*body {
+    background-image: url("../img/back/10.jpg");
+    background-color: #cccccc;
+    background-size: 100%;
+}*/
+
+
+/* Estilos por atributos */
+[center] { text-align: center; }

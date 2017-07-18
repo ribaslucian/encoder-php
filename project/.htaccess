@@ -1,0 +1,23 @@
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+DirectoryIndex config/init.php
+RewriteRule ^(.*)$ config/init.php
+
+# tempo máximo de execução de 60 segundos
+php_value max_execution_time 60
+
+# habilitamos a visibilidade de errors no servidor
+php_value display_errors On
+
+# definimos UTF-8 como charset padrão
+# php_value default_charset 'iso-8859-1'
+php_value default_charset 'UTF-8'
+
+# definimos que o tamanho máximo de um post ou 
+# arquivo enviado ao servidor seja de 100MB
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+
+# definimos a timezone
+php_value date.timezone 'America/Sao_Paulo'

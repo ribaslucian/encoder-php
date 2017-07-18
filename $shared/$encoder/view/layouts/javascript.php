@@ -1,0 +1,1 @@
+<script type="text/javascript" src="<?php echo url_application() . 'assets/javascripts/' . $file; ?>.js"></script>
