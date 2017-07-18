@@ -1,7 +1,6 @@
 # **ENCODER**
 
-Implemented by me, encoder is my particular PHP framework. 
-Focus on rapid and basic development. 
+Developed by me for fun, this is the group of classes that I unleashed and gathered in one place, the Encoder Framework, version PHP.
 
 ----------
 
